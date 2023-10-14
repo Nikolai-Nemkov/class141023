@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine();
+Console.WriteLine("Задача 55");
+Console.WriteLine();
 
 //Задача 55:
 //Задайте двумерный массив. Напишите программу,
@@ -7,9 +9,9 @@ Console.WriteLine("Hello, World!");
 //невозможно, программа должна вывести сообщение для
 //пользователя.
 
-    //I вариант для строк на столбцы.
-    //II вариант для столбцов нв строки.
- 
+//I вариант для строк на столбцы.
+//II вариант для столбцов нв строки.
+
 int[,] CreatMatrixRandomInt(int rows, int columns, int min, int max)
 {
     int[,] matrix = new int[rows, columns];
@@ -73,6 +75,8 @@ if (rndMatrix.GetLength(0) != rndMatrix.GetLength(1))
 }
 ReplaceRowsWithColomns(rndMatrix);
 PrintArray(rndMatrix);
+Console.WriteLine();
+
 
 
 
@@ -143,4 +147,3 @@ if (rndMatrix.GetLength(0) != rndMatrix.GetLength(1))
 ReplaceRowsWithColomns(rndMatrix);
 PrintArray(rndMatrix);
 */
-
