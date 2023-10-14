@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine();
+Console.WriteLine("Задача 57");
+Console.WriteLine();
 
 // Задача 57: Составить частотный словарь элементов
 // двумерного массива. Частотный словарь содержит
@@ -35,7 +37,7 @@ int[] MatrixToArray(int[,] matrix)
 {
     int k = 0;
     int[] array = new int[matrix.Length];
-    for(int i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
@@ -51,12 +53,13 @@ void PrintFrequencyDictionary(int[] array)
 {
     int count = 1;
     int currentNum = array[0];
-    for(int i = 1; i<array.Length; i++)
+    for (int i = 1; i < array.Length; i++)
     {
         if (array[i] == currentNum)
         {
             count++;
-        } else
+        }
+        else
         {
             Console.WriteLine($"{currentNum} -> {count}");
             currentNum = array[i];
@@ -78,7 +81,9 @@ PullMatrix(matrix);
 PrintMatrix(matrix);
 Console.WriteLine();
 int[] arr = MatrixToArray(matrix);
+
 Array.Sort(arr);
 PrintArray(arr);
 Console.WriteLine();
 PrintFrequencyDictionary(arr);
+Console.WriteLine();
