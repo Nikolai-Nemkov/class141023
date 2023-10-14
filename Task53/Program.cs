@@ -56,4 +56,3 @@ Console.WriteLine();
 ReplaceFirstLastRow(array2d);
 PrintMatrix(array2d);
 Console.WriteLine();
-
