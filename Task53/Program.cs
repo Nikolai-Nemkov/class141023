@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine();
+Console.WriteLine("Задача 53");
+Console.WriteLine();
 
 // Задача 53:
 // Задайте двумерный массив. Напишите программу,
@@ -53,3 +55,5 @@ PrintMatrix(array2d);
 Console.WriteLine();
 ReplaceFirstLastRow(array2d);
 PrintMatrix(array2d);
+Console.WriteLine();
+
